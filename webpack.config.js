@@ -1,6 +1,6 @@
 var path = require('path');
 module.exports = {
-  entry: path.join(process.cwd(), 'client.js'),
+  entry: path.join(process.cwd(), 'src/index.js'),
   output: {
     path: './public/',
     filename: 'build.js'
